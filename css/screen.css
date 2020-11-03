@@ -1,6 +1,7 @@
 body {
    background-color: #FBF3F2;
    margin: 0px;
+   font-family: 'Playfair Display', serif;
 }
 
 main{
@@ -21,7 +22,6 @@ main{
   padding: 31px 24px;
   text-decoration: none;
   font-size: 16px;
-  order: reverse;
 }
 
 .name {
@@ -45,6 +45,7 @@ main{
 
 h1, h2, h3{
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -54,7 +55,7 @@ h1 {
 }
 
 #personinformation > h2 {
-  font-size: 2.30em;
+  font-size: 2.20em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -85,7 +86,7 @@ h3 {
 
 .contact-info{
   text-align: right;
-  margin-left: 42%;
+  margin-left: 39%;
   font-weight: normal;
 }
 
@@ -101,9 +102,13 @@ strong{
   font-weight: bold;
 }
 
-#writing > div li {
-  list-style-type:square;
+div li{
+  list-style-type:circle;
   margin-left: 2.5%;
+}
+
+.parts li {
+  margin-left: 5%;
 }
 
 .activities{
