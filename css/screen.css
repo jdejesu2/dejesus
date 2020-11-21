@@ -5,7 +5,7 @@ body {
 }
 
 main{
-  width: 65%;
+  width: 75%;
   margin: auto;
   padding-bottom: 20px;
 }
@@ -46,11 +46,11 @@ main{
 h1, h2, h3{
   font-weight: bold;
   font-family: 'Lato', sans-serif;
+  padding-top: 30px;
 }
 
 h1 {
   font-size: 2em;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -62,13 +62,11 @@ h1 {
 
 h2 {
   font-size: 1.75em;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
 h3 {
   font-size: 1.50em;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -86,20 +84,37 @@ h3 {
 
 .contact-info{
   text-align: right;
-  margin-left: 39%;
+  margin-left: 49%;
   font-weight: normal;
 }
 
 #writing{
   background-color: white;
-  padding: 30px;
   padding-left: 80px;
   padding-right: 80px;
+  padding-bottom: 70px;
 }
 
-strong{
+span{
   color: #FA991c;
   font-weight: bold;
+}
+
+.button {
+  background-color: #FA991c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.con-button {
+  padding-top: 30px;
 }
 
 div li{
@@ -107,8 +122,13 @@ div li{
   margin-left: 2.5%;
 }
 
-.parts li {
+.parts li{
   margin-left: 5%;
+}
+
+#primary img {
+  padding: 20px;
+  width: 90%;
 }
 
 .activities{
@@ -118,6 +138,13 @@ div li{
 
 .parts, .homepage, .icons{
   flex: 1 50%;
+}
+
+.test {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+  flex: 1 35%;
 }
 
 .top{
@@ -132,11 +159,34 @@ div li{
   color: white;
 }
 
-.homepage img {
+.homepage img, .activities img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.homepage img{
   width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.feedback img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.feedback, .units{
+  padding-top: 25px;
+  font-weight: 400 italic;
+}
+
+.author {
+  padding-top: 15px;
+  text-align: right;
+  font-style: italic;
 }
 
 .homepage{
@@ -169,11 +219,15 @@ footer a {
  }
 
  footer img {
-   width: 25px;
-   height: 25px;
+   width: 30px;
+   height: 30px;
  }
 
  .icons a img{
    padding-right: 10px;
    vertical-align: right;
  }
+
+.exper{
+  padding-top: 10px;
+}
